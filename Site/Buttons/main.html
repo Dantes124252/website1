@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freekits.shop</title>
+    <style>
+        body {
+            background-image: url('assets2/giphy.gif');
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #sidebar {
+            background-color: transparent; /* Transparent background */
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #sidebar-logo {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+        }
+
+        #sidebar-logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        #sidebar-buttons {
+            display: flex;
+            align-items: center;
+            margin-right: auto;
+        }
+
+        #sidebar button {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px 15px;
+            border: none;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 20px;
+        }
+
+        #sidebar button:hover {
+            background-color: #555555;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .typewriter {
+            font-size: 100px;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 4s steps(40, end);
+            position: relative;
+        }
+
+        .typewriter-about {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        #discord-button {
+            background-color: #7289DA;
+            color: #ffffff;
+            padding: 10px 15px;
+            border: none;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 20px;
+        }
+
+        #discord-button:hover {
+            background-color: #5a68a0;
+        }
+
+        .image-slot {
+            width: 200px;
+            height: 200px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+            overflow: hidden;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .image-slot img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div id="sidebar">
+    <div id="sidebar-logo">
+        <img src="assets2/New_Project_36.png" alt="Company Logo">
+    </div>
+    <div id="sidebar-buttons">
+        <button onclick="location.href='main.html';">Home</button>
+        <button onclick="location.href='Contact us.html';">Contact us</button>
+        <button onclick="location.href='payment.html';">Payment</button>
+        <button onclick="location.href='How to dupe.html';">How to dupe</button>
+    </div>
+    <button id="discord-button" onclick="location.href='https://discord.gg/kitshop';">Join our Discord</button>
+</div>
+
+<div class="container">
+    <div class="typewriter">Freekits.shop</div>
+    <div class="typewriter-about">Free kits on your favorite anarchy servers</div>
+    <a href="8b8t.html" class="image-slot">
+        <img src="assets2/8b8t.png" alt="Image 1">
+    </a>
+    <a href="6b6t.html" class="image-slot">
+        <img src="assets2/6b6t.png" alt="Image 2">
+    </a>
+    <a href="alacity.net.html" class="image-slot">
+        <img src="assets2/alacity.png" alt="Image 3">
+    </a>
+</div>
+
+</body>
+</html>

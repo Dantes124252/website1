@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Information</title>
+    <style>
+        /* Add any custom styles here */
+        body {
+            background-image: url('assets2/giphy.gif');
+            background-color: #121212;
+            color: #FFF;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #sidebar {
+            background-color: transparent; /* Transparent background */
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #sidebar-logo {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+        }
+
+        #sidebar-logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        #sidebar-buttons {
+            display: flex;
+            align-items: center;
+            margin-right: auto;
+        }
+
+        #sidebar button {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px 15px;
+            border: none;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 20px;
+        }
+
+        #sidebar button:hover {
+            background-color: #555555;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .discord-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #7289DA;
+            color: #FFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .image-slots {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .image-slot {
+            margin: 0 10px;
+            flex: 1 0 300px; /* Adjust width as needed */
+        }
+        .image-slot img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="sidebar">
+    <div id="sidebar-logo">
+        <img src="assets2/New_Project_36.png" alt="Company Logo">
+    </div>
+    <div id="sidebar-buttons">
+        <button onclick="location.href='main.html';">Home</button>
+        <button onclick="location.href='Contact us.html';">Contact us</button>
+        <button onclick="location.href='payment.html';">Payment</button>
+        <button onclick="location.href='How to dupe.html';">How to dupe</button>
+    </div>
+    <button id="discord-button" onclick="location.href='https://discord.gg/kitshop';">Join our Discord</button>
+</div>
+<div class="container">
+    <h1>We're Not Accepting Payments on This Site Yet!</h1>
+    <p>Sorry for the inconvenience, but our payment system is still under development.</p>
+    <p>In the meantime, please join our Discord server and contact Dante, our developer, for assistance:</p>
+    <a href="https://discord.gg/kitshop" class="discord-button">Join our Discord</a>
+    <div class="image-slots">
+        <div class="image-slot">
+            <img src="assets2/dev_dante.jpeg" alt="Image 1">
+        </div>
+        <div class="image-slot">
+            <img src="assets2/sad-emoji.gif" alt="Image 2">
+        </div>
+    </div>
+</div>
+</body>
+</html>
